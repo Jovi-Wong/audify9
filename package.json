@@ -1,6 +1,6 @@
 {
 	"name": "audify9",
-	"version": "1.9.0",
+	"version": "1.9.1",
 	"description": "Play/Stream/Record PCM audio data & Encode/Decode Opus to PCM audio data",
 	"main": "index.js",
 	"types": "index.d.ts",
@@ -40,7 +40,8 @@
 		"audio",
 		"music",
 		"voip",
-		"headphones"
+		"headphones",
+		"microphone"
 	],
 	"author": "Almog Hamdani",
 	"license": "MIT",

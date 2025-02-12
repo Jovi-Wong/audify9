@@ -2,9 +2,9 @@
 [![Master Build Status](https://github.com/almoghamdani/audify/actions/workflows/commit-build.yml/badge.svg?branch=master)](https://github.com/almoghamdani/audify/actions/workflows/commit-build.yml)
 [![Prebuilt Build Status](https://github.com/almoghamdani/audify/actions/workflows/deploy-build.yml/badge.svg)](https://github.com/almoghamdani/audify/actions/workflows/deploy-build.yml)
 
-# Audify.js
+# Audify9.js
 
-Audify.js - Play/Stream/Record PCM audio data &amp; Encode/Decode Opus to PCM audio data
+Audify9.js - Play/Stream/Record PCM audio data &amp; Encode/Decode Opus to PCM audio data
 
 ## Features
 
@@ -15,7 +15,7 @@ Audify.js - Play/Stream/Record PCM audio data &amp; Encode/Decode Opus to PCM au
 ## Installation
 
 ```
-npm install audify
+npm install audify9
 ```
 
 **_Most regular installs will support prebuilds that are built with each release._**
@@ -38,7 +38,7 @@ npm install audify
 #### Opus Encode & Decode
 
 ```javascript
-const { OpusEncoder, OpusDecoder, OpusApplication } = require("audify");
+const { OpusEncoder, OpusDecoder, OpusApplication } = require("audify9");
 
 // Init encoder and decoder
 // Sample rate is 48kHz and the amount of channels is 2
@@ -57,7 +57,7 @@ var decoded = decoder.decode(encoded, frameSize);
 #### Record audio and play it back realtime
 
 ```javascript
-const { RtAudio, RtAudioFormat } = require("audify");
+const { RtAudio, RtAudioFormat } = require("audify9");
 
 // Init RtAudio instance using default sound API
 const rtAudio = new RtAudio(/* Insert here specific API if needed */);
